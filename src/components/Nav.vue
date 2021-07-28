@@ -1,19 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item menu-item">
-        <router-link to="./Home">Home</router-link>
-      </li>
-      <li class="nav-item menu-item">
-        <router-link to="./Products">List</router-link>
-      </li>
-      <Dropdown title="Genres" :items="genres" />
-      <li class="nav-item menu-item">
-        <router-link to="./About">About</router-link>
-      </li>
-    </ul>
-  </nav>
+  <nav>
+    <div class="menu-item"><router-link to="./Home">Home</router-link></div>
+    <div class="menu-item"><router-link to="./Products">List</router-link></div>
+    <Dropdown title="Genres" :items="genres" />
+    <div class="menu-item"><router-link to="./About">About</router-link></div>
   </nav>
 </template>
 
@@ -52,6 +42,7 @@ nav .menu-item {
   display: flex;
   transition: 0.4s;
   width: 150px;
+  z-index: 9999;
 }
 nav .menu-item.active,
 nav .menu-item:hover {
