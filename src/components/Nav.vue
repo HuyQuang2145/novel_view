@@ -42,6 +42,7 @@ nav .menu-item {
   display: flex;
   transition: 0.4s;
   width: 150px;
+  z-index: 9999;
 }
 nav .menu-item.active,
 nav .menu-item:hover {
