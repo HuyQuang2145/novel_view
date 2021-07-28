@@ -1,0 +1,22 @@
+{
+    "datas":[
+        {
+            "id":1,
+            "name":"Truyentranh1",
+            "image": "src/assets/logo.png"
+        },
+        {
+            "id":2,
+            "name":"Truyentranh2"
+        },
+        {
+            "id":3,
+            "name":"Truyentranh3"
+        },
+        {
+            "id":4,
+            "name":"Truyentranh4"
+        }
+
+    ]
+}
